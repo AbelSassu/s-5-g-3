@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body{
+    color: #732104;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    
+}
+img{
+    max-width: 100%;
+}
+header img{
+    max-width: 13%;
+    margin-right: 30px;
+}
+li{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 28px;
+    margin-right: 45px;
+    padding: 20px;
+    border-radius: 60px;
+    max-width: 30%;
+    background-color: #ffdf7f;   
+}
+li:nth-child(3) {
+    white-space: nowrap;
+}
+#shop{
+    font-size: 1.7em;
+    height: 2.5em;
+    max-width: 100%;
+}
+header{
+    font-weight: bold;
+    border-radius: 30%;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+    background-color: #fef7e2;
+}
+ul{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+h1{ margin: 1.5em;
+    font-size:2.5em;
+    font-weight: bolder;
+}
+section div{
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 15%;
+    padding-bottom: 15px;
+    background-color: #fef7e2;
+}
+h4{  
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+#italian{
+    margin-right: 20em;
+    margin-top: 0px;
+}
+.product {
+    position: relative;
+}
+h4 {
+    margin-right: 16.2em;
+}
+#prova {
+    position: absolute;
+    right: 5%;
+    bottom: 4.5em;
+    font-size: 1.2em;
+}
+button{
+    font-weight: bolder;
+    color: #732104;
+    margin: 10px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 40px;
+    width: 60%;
+    background-color: #ffdf7f; 
+    border: none;
+}
+
+h2{ 
+    font-weight: bolder;
+    font-size: 2em;
+    margin-top: 2.5em;
+}
+#sec2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: start;
+    border-radius: 5%;
+    background-color: #fff8e2;
+}
+#sec2 img{
+    margin-top: 20px;
+}
+#sec2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#sec2 h3{
+    margin-left: 40px;
+}
+@media screen and (min-width: 1200px) {
+    body {
+        display: grid;
+        grid-template-columns: 20% 80%; 
+        grid-gap: 10px; 
+    }
+
+    header {
+        grid-column: 1; 
+        grid-row: 1 / span 2; 
+    }
+
+    main {
+        grid-column: 2; 
+        margin-top: 10px;
+    }
+    img{
+        max-width: 100%;
+    }
+    header img{
+        max-width: 50%;
+
+    }
+    li{ 
+        height: 100%;
+        border-radius: 60px;
+    }
+    header{
+        border-radius: 0%;
+        
+    }
+
+}
